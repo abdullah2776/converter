@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #74ebd5, #acb6e5);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  padding: 25px 35px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 320px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: 0.2s;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  flex: 1;
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#convertBtn {
+  background-color: #007bff;
+  color: white;
+}
+
+#convertBtn:hover {
+  background-color: #0056b3;
+}
+
+.clear {
+  background-color: #f44336;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #d32f2f;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
